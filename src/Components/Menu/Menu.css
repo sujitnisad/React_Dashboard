@@ -1,0 +1,27 @@
+.menu--list {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 10px;
+}
+.menu--list-item {
+  padding: 1rem;
+  border-radius: 5px;
+  overflow: hidden;
+  color: #b8b7b7;
+}
+
+.menu--list-item a:hover {
+  transform: translateX(40%);
+  color: #3fa2f6;
+}
+.menu--list-item a {
+  overflow: hidden;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: rgb(212, 208, 208);
+  font-size: 24px;
+  transition: transform 400ms ease-out;
+}
